@@ -26,4 +26,15 @@ where weekday(left(rental_date,10)) = '5' or weekday(left(rental_date,10)) = '6'
 
 select release_year from film;
 
+SELECT * FROM film WHERE title LIKE '%ARMAGEDDON%';
+
+SELECT * FROM film WHERE title LIKE '%APOLLO';
+
+SELECT COUNT(*) FROM film WHERE description LIKE '%Behind the Scenes%';
+
 select max(length) as longest_film from film;
+
+
+
+
+
